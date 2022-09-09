@@ -107,7 +107,7 @@ public class Pet {
                 .statusCode(200)
                 .body("code", is(200))
                 .body("type", is("unknown"))
-                .body("massage", is(petId))
+                .body("message", is(petId))
         ;
     }
 
